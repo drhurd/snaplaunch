@@ -1,46 +1,31 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.11'
+ruby '2.2.0'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'activeadmin', github: 'activeadmin'
+gem 'delayed_job_active_record', '~> 4.0.3'
+gem 'devise'
+gem 'inherited_resources', github: 'josevalim/inherited_resources', branch: 'rails-4-2'
 gem 'pg'
+gem 'rails', '4.2.0'
+gem 'unicorn'
 
-gem 'activeadmin'
-
-
-# Gems used only for assets and not required
-# in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-
-  # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer', :platforms => :ruby
-
-  gem 'uglifier', '>= 1.0.3'
+  gem 'coffee-rails', '~> 4.1.0'
+  gem 'sass-rails',   '~> 5.0.1'
+  gem 'uglifier'
 end
 
 group :development do
   gem 'pry'
+  gem 'sqlite3'
 end
 
-gem 'delayed_job_active_record'
+group :development, :test do
+  gem "dotenv-rails"
+end
 
-gem 'unicorn'
-
-# To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
-
-# To use Jbuilder templates for JSON
-# gem 'jbuilder'
-
-# Use unicorn as the app server
-# gem 'unicorn'
-
-# Deploy with Capistrano
-# gem 'capistrano'
-
-# To use debugger
-# gem 'debugger'
+group :production do
+  gem 'rails_12factor'
+  gem 'rails_serve_static_assets'
+end
