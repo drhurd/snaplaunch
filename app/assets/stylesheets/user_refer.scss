@@ -1,0 +1,652 @@
+body {
+  margin: 0;
+  min-width: 1280px;
+}
+
+#suits-contain {
+  position: relative;
+  width: 1280px;
+  margin-top: 0;
+  margin-left: auto;
+  z-index: 73;
+  margin-right: auto;
+}
+
+#contenedorbkg {
+  float: left;
+  position: relative;
+  width: 1280px;
+  height: 863px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 7;
+}
+
+#footer {
+  float: left;
+  position: relative;
+  width: 969px;
+  margin-top: 813px;
+  margin-left: -1125px;
+  z-index: 16;
+}
+
+#separador1 {
+  float: left;
+  position: relative;
+  width: 950px;
+  height: 1px;
+  margin-top: 0;
+  margin-left: 10px;
+  z-index: 11;
+}
+
+#getmeasured {
+  float: left;
+  position: relative;
+  width: 109px;
+  margin-top: 16px;
+  margin-left: 0;
+  z-index: 13;
+  clear: left;
+}
+
+#separador3 {
+  float: left;
+  position: relative;
+  width: 1px;
+  height: 11px;
+  margin-top: 21px;
+  margin-left: 8px;
+  z-index: 9;
+}
+
+#ourcollection {
+  float: left;
+  position: relative;
+  width: 114px;
+  margin-top: 16px;
+  margin-left: 5px;
+  z-index: 14;
+}
+
+#separador2 {
+  float: left;
+  position: relative;
+  width: 1px;
+  height: 11px;
+  margin-top: 21px;
+  margin-left: 8px;
+  z-index: 10;
+}
+
+#aboutus {
+  float: left;
+  position: relative;
+  width: 80px;
+  margin-top: 16px;
+  margin-left: 5px;
+  z-index: 15;
+}
+
+#copyright {
+  float: left;
+  position: relative;
+  width: 349px;
+  margin-top: 15px;
+  margin-left: 289px;
+  z-index: 12;
+}
+
+#header {
+  float: left;
+  position: relative;
+  width: 948px;
+  margin-top: 24px;
+  margin-left: -1115px;
+  z-index: 72;
+}
+
+#logo {
+  float: left;
+  position: relative;
+  width: 168px;
+  margin-top: 6px;
+  margin-left: 0;
+  z-index: 71;
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+}
+
+#snapsuits {
+  float: left;
+  position: relative;
+  width: 168px;
+  height: 22px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 70;
+}
+
+#thanks-1 {
+  float: left;
+  position: relative;
+  width: 483px;
+  margin-top: 0;
+  margin-left: 297px;
+  z-index: 68;
+}
+
+#thanks {
+  float: left;
+  position: relative;
+  width: 483px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 67;
+}
+
+#contenedorrewards {
+  float: left;
+  position: relative;
+  width: 949px;
+  margin-top: 537px;
+  margin-left: -1113px;
+  z-index: 49;
+}
+
+#rewards {
+  float: left;
+  position: relative;
+  width: 204px;
+  margin-top: 0;
+  margin-left: 370px;
+  z-index: 48;
+}
+
+#rewardstitulo {
+  float: left;
+  position: relative;
+  width: 204px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 47;
+}
+
+#contenedor1 {
+  float: left;
+  position: relative;
+  width: 930px;
+  margin-top: 14px;
+  margin-left: 2px;
+  z-index: 45;
+  background-image: url(contenedor1.png);
+  background-repeat: no-repeat;
+  clear: left;
+}
+
+#friendsjoinedguide {
+  float: left;
+  position: relative;
+  width: 146px;
+  margin-top: 31px;
+  margin-left: 0;
+  z-index: 33;
+}
+
+#circulo1 {
+  float: left;
+  position: relative;
+  width: 54px;
+  height: 54px;
+  margin-top: 15px;
+  margin-left: 150px;
+  z-index: 35;
+}
+
+#text-4 {
+  float: left;
+  position: relative;
+  width: 34px;
+  margin-top: 31px;
+  margin-left: -43px;
+  z-index: 40;
+}
+
+#circulo2 {
+  float: left;
+  position: relative;
+  width: 64px;
+  height: 64px;
+  margin-top: 10px;
+  margin-left: 69px;
+  z-index: 36;
+}
+
+#text-3 {
+  float: left;
+  position: relative;
+  width: 46px;
+  margin-top: 31px;
+  margin-left: -55px;
+  z-index: 41;
+}
+
+#circulo3 {
+  float: left;
+  position: relative;
+  width: 74px;
+  height: 74px;
+  margin-top: 5px;
+  margin-left: 69px;
+  z-index: 37;
+}
+
+#text-2 {
+  float: left;
+  position: relative;
+  width: 46px;
+  margin-top: 31px;
+  margin-left: -60px;
+  z-index: 42;
+}
+
+#circulo4 {
+  float: left;
+  position: relative;
+  width: 79px;
+  height: 79px;
+  margin-top: 3px;
+  margin-left: 69px;
+  z-index: 38;
+}
+
+#text-1 {
+  float: left;
+  position: relative;
+  width: 46px;
+  margin-top: 31px;
+  margin-left: -62px;
+  z-index: 43;
+}
+
+#circulorojo {
+  float: left;
+  position: relative;
+  width: 86px;
+  height: 86px;
+  margin-top: 0;
+  margin-left: 70px;
+  z-index: 39;
+}
+
+#text {
+  float: left;
+  position: relative;
+  width: 58px;
+  margin-top: 31px;
+  margin-left: -72px;
+  z-index: 44;
+}
+
+#contenedor2 {
+  float: left;
+  position: relative;
+  width: 949px;
+  margin-top: 6px;
+  margin-left: 0;
+  z-index: 31;
+  clear: left;
+}
+
+#snapsuitsgoodies {
+  float: left;
+  position: relative;
+  width: 181px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 25;
+}
+
+#additional10off {
+  float: left;
+  position: relative;
+  width: 119px;
+  margin-top: 3px;
+  margin-left: 85px;
+  z-index: 26;
+}
+
+#freesilkblackbow {
+  float: left;
+  position: relative;
+  width: 119px;
+  margin-top: 3px;
+  margin-left: 9px;
+  z-index: 27;
+}
+
+#offanyitem {
+  float: left;
+  position: relative;
+  width: 119px;
+  margin-top: 3px;
+  margin-left: 19px;
+  z-index: 28;
+}
+
+#freeshirt {
+  float: left;
+  position: relative;
+  width: 119px;
+  margin-top: 3px;
+  margin-left: 26px;
+  z-index: 29;
+}
+
+#freecustomsuit {
+  float: left;
+  position: relative;
+  width: 119px;
+  margin-top: 3px;
+  margin-left: 34px;
+  z-index: 30;
+}
+
+#friendsjoined-1 {
+  float: left;
+  position: relative;
+  width: 230px;
+  margin-top: 20px;
+  margin-left: 358px;
+  z-index: 23;
+  clear: left;
+}
+
+#friendsjoined {
+  float: left;
+  position: relative;
+  width: 230px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 22;
+}
+
+#keepchecking-1 {
+  float: left;
+  position: relative;
+  width: 119px;
+  margin-top: 2px;
+  margin-left: 413px;
+  z-index: 20;
+  clear: left;
+}
+
+#keepchecking {
+  float: left;
+  position: relative;
+  width: 119px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 19;
+}
+
+#slide {
+  float: left;
+  position: relative;
+  width: 618px;
+  margin-top: 180px;
+  margin-left: -950px;
+  z-index: 64;
+}
+
+#tellyourcompany {
+  float: left;
+  position: relative;
+  width: 618px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 63;
+}
+
+#tellyourcompany-title {
+  float: left;
+  position: relative;
+  width: 618px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 62;
+}
+
+#textcopy-1 {
+  float: left;
+  position: relative;
+  width: 423px;
+  margin-top: 16px;
+  margin-left: 99px;
+  z-index: 60;
+  clear: left;
+}
+
+#textcopy {
+  float: left;
+  position: relative;
+  width: 423px;
+  height: 78px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 59;
+}
+
+#socialicons {
+  float: left;
+  position: relative;
+  width: 153px;
+  margin-top: 36px;
+  margin-left: 233px;
+  z-index: 57;
+  clear: left;
+}
+
+#fb {
+  float: left;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 53;
+}
+
+#separador5 {
+  float: left;
+  position: relative;
+  width: 1px;
+  height: 20px;
+  margin-top: 6px;
+  margin-left: 14px;
+  z-index: 55;
+}
+
+#twitter {
+  float: left;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-top: 0;
+  margin-left: 13px;
+  z-index: 52;
+}
+
+#separador4 {
+  float: left;
+  position: relative;
+  width: 1px;
+  height: 20px;
+  margin-top: 6px;
+  margin-left: 14px;
+  z-index: 56;
+}
+
+#url {
+  float: left;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  margin-top: 0;
+  margin-left: 14px;
+  z-index: 54;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: 16px/21px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #666;
+  letter-spacing: normal;
+}
+
+.text-style-1 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 14px/17px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #878787;
+  letter-spacing: normal;
+}
+
+.text-style-2 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 14px/17px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #666;
+  letter-spacing: normal;
+}
+
+.text-style-3 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 34px/51px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: normal;
+}
+
+.text-style-4 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: right;
+  font: bold 24px/36px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #666;
+  letter-spacing: normal;
+}
+
+.text-style-5 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 20px/24px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fd3934;
+  letter-spacing: normal;
+}
+
+.text-style-6 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: left;
+  font: bold 20px/24px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #666;
+  letter-spacing: normal;
+}
+
+.text-style-7 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 20px/24px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #666;
+  letter-spacing: normal;
+}
+
+.text-style-8 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: left;
+  font: bold 20px/24px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fd3934;
+  letter-spacing: normal;
+}
+
+.text-style-9 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 16px/19px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fd3934;
+  letter-spacing: normal;
+}
+
+.text-style-10 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 20px/24px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fd3933;
+  letter-spacing: normal;
+}
+
+.text-style-11 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 20px/24px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: normal;
+}
+
+.span {
+  color: #858585;
+}
+
+.span-1 {
+  font-weight: normal;
+  font-size: 12px;
+}

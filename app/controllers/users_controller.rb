@@ -7,8 +7,9 @@ class UsersController < ApplicationController
 
         @user = User.new
 
+
         respond_to do |format|
-            format.html # new.html.erb
+            format.html { render :layout => "new_layout" }
         end
     end
 
@@ -73,7 +74,7 @@ class UsersController < ApplicationController
 
         respond_to do |format|
             if !@user.nil?
-                format.html #refer.html.erb
+                format.html {render :layout => "refer_layout"}
             else
                 format.html { redirect_to root_path, :alert => "Something went wrong!" }
             end

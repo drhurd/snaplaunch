@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  min-width: 1280px;
+}
+
+#suits-contain {
+  position: relative;
+  width: 1280px;
+  margin-top: 0;
+  margin-left: auto;
+  z-index: 33;
+  margin-right: auto;
+}
+
+#contenedorbkg {
+  float: left;
+  position: relative;
+  width: 1280px;
+  height: 863px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 6;
+}
+
+#footer {
+  float: left;
+  position: relative;
+  width: 969px;
+  margin-top: 813px;
+  margin-left: -1125px;
+  z-index: 15;
+}
+
+#separador1 {
+  float: left;
+  position: relative;
+  width: 950px;
+  height: 1px;
+  margin-top: 0;
+  margin-left: 10px;
+  z-index: 10;
+}
+
+#getmeasured {
+  float: left;
+  position: relative;
+  width: 109px;
+  margin-top: 16px;
+  margin-left: 0;
+  z-index: 12;
+  clear: left;
+}
+
+#separador3 {
+  float: left;
+  position: relative;
+  width: 1px;
+  height: 11px;
+  margin-top: 21px;
+  margin-left: 8px;
+  z-index: 8;
+}
+
+#ourcollection {
+  float: left;
+  position: relative;
+  width: 114px;
+  margin-top: 16px;
+  margin-left: 5px;
+  z-index: 13;
+}
+
+#separador2 {
+  float: left;
+  position: relative;
+  width: 1px;
+  height: 11px;
+  margin-top: 21px;
+  margin-left: 8px;
+  z-index: 9;
+}
+
+#aboutus {
+  float: left;
+  position: relative;
+  width: 80px;
+  margin-top: 16px;
+  margin-left: 5px;
+  z-index: 14;
+}
+
+#copyright {
+  float: left;
+  position: relative;
+  width: 349px;
+  margin-top: 15px;
+  margin-left: 289px;
+  z-index: 11;
+}
+
+#afordable-luxury {
+  float: left;
+  position: relative;
+  width: 483px;
+  margin-top: 273px;
+  margin-left: -881px;
+  z-index: 28;
+}
+
+#affordable-luxury-copy {
+  float: left;
+  position: relative;
+  width: 483px;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 27;
+}
+
+#stepinside {
+  float: left;
+  position: relative;
+  width: 458px;
+  margin-top: 540px;
+  margin-left: -868px;
+  z-index: 25;
+  min-height: 200px;
+  background-image: url(stepinside.png);
+  background-repeat: no-repeat;
+}
+
+#stepinsidetitle25 {
+  float: left;
+  position: relative;
+  width: 439px;
+  margin-top: 0;
+  margin-left: 9px;
+  z-index: 24;
+}
+
+#enter-email {
+  float: left;
+  position: relative;
+  width: 122px;
+  margin-top: 47px;
+  margin-left: 2px;
+  z-index: 19;
+  clear: left;
+}
+
+#signupbutton {
+  float: left;
+  position: relative;
+  width: 180px;
+  height: 61px;
+  margin-top: 43px;
+  margin-left: 141px;
+  z-index: 23;
+}
+
+#stepinsidewarningcopy {
+  float: left;
+  position: relative;
+  width: 405px;
+  margin-top: 42px;
+  margin-left: 26px;
+  z-index: 17;
+  clear: left;
+}
+
+#logo {
+  float: left;
+  position: relative;
+  width: 369px;
+  margin-top: 152px;
+  margin-left: -825px;
+  z-index: 32;
+}
+
+#snapsuits {
+  float: left;
+  position: relative;
+  width: 320px;
+  height: 41px;
+  margin-top: 0;
+  margin-left: 25px;
+  z-index: 30;
+}
+
+#backsoon {
+  float: left;
+  position: relative;
+  width: 369px;
+  margin-top: 7px;
+  margin-left: 0;
+  z-index: 31;
+  clear: left;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: 24px/36px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: normal;
+}
+
+.text-style-1 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: 16px/19px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fd3934;
+  letter-spacing: normal;
+}
+
+.text-style-2 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 14px/17px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #878787;
+  letter-spacing: normal;
+}
+
+.text-style-3 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: 24px/29px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #555;
+  letter-spacing: normal;
+}
+
+.text-style-4 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: bold 14px/17px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #666;
+  letter-spacing: normal;
+}
+
+.text-style-5 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: 30px/42px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: normal;
+}
+
+.text-style-6 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
+  font: 16px/19px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #999;
+  letter-spacing: normal;
+}
+
+.span {
+  color: #858585;
+}
+
+.span-1 {
+  font-weight: normal;
+  font-size: 12px;
+}

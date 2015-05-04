@@ -1,11 +1,12 @@
 source 'https://rubygems.org'
 
-ruby '2.2.0'
+ruby '2.0.0'
 
 gem 'activeadmin', github: 'activeadmin'
+#gem 'activeadmin', '~> 1.0.0.pre1'
 gem 'delayed_job_active_record', '~> 4.0.3'
 gem 'devise'
-gem 'inherited_resources', github: 'josevalim/inherited_resources', branch: 'rails-4-2'
+gem 'inherited_resources', '~> 1.6.0'
 gem 'pg'
 gem 'rails', '4.2.0'
 gem 'unicorn'

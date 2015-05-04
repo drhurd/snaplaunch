@@ -1,20 +1,60 @@
-<div class="hero">
-    <p class="large brandon">Harry&#8217;s is live</p>
-    <p class="small brandon">Respecting the Face and Wallet<br>Since Like...Right Now.</p>
-</div>
-
-<div class="form-wrap clearfix <%= "ended" if Rails.application.config.ended %>">
-    <% if Rails.application.config.ended %>
-        <p class="thanks brandon">THANK YOU FOR PARTICIPATING<br>IN OUR PRE-LAUNCH.</p>
-        <p class="compiling brandon">WE ARE COMPILING REWARDS RIGHT NOW AND WILL EMAIL<br/>COUPON CODES TO ALL RECIPIENTS IN THE NEXT DAY OR TWO</p>
-        <p class="go-to brandon">In the meantime, head to  <a href="http://www.harrys.com/">WWW.HARRYS.COM</a></p>
-        <p class="again brandon">Thank You Again!</p>
-    <% else %>
-        <div class="key"></div>
-        <p class="byline brandon">Be the first to know</p>
-        <%= form_for @user, :url => { :action => "create" } do |f| %>
-            <%= f.text_field :email, :placeholder => "Enter Email", :class => "email brandon" %>
-            <input class="submit brandon" name="commit" type="submit" value="Step Inside" />
-        <% end %>
+<div id="suits-contain">
+  <img id="contenedorbkg" src="<%= asset_path('home/contenedorbkg.jpg') %>">
+  <div id="footer">
+    <img id="separador1" src="<%= asset_path('home/separador1.png') %>">
+    <div id="getmeasured">
+      <p class="text-style-4">
+        Get Measured
+      </p>
+    </div>
+    <img id="separador3" src="<%= asset_path('home/separador3.png') %>">
+    <div id="ourcollection">
+      <p class="text-style-4">
+        Our Collection
+      </p>
+    </div>
+    <img id="separador2" src="<%= asset_path('home/separador2.png') %>">
+    <div id="aboutus">
+      <p class="text-style-4">
+        About Us
+      </p>
+    </div>
+    <div id="copyright">
+      <p class="text-style-2">
+        Copyright SnapSuits<span class="span-1"></span> 2015, <span class="span">CALL: 323-510-SNAP</span>
+      </p>
+    </div>
+  </div>
+  <div id="afordable-luxury">
+    <div id="affordable-luxury-copy">
+      <p>
+        Affordable luxury - Custom suits, tuxedos, and shirts, delivered in 14 days.
+      </p>
+    </div>
+  </div>
+  <div id="stepinside">
+    <div id="stepinsidetitle25">
+      <p class="text-style-3">
+        Sign up for $25 off your first custom suit
+      </p>
+    </div>
+    <%= form_for @user, :url => { :action => "create" } do |f| %>
+        <%= f.text_field :email, :placeholder => "Enter Email", :style => "border: none;padding-top: 21px;padding-bottom: 20px;padding-left: 19px;padding-right: 150px;" %>
+        <input id="signupbutton" type="image" src="<%= asset_path('home/signupbutton.jpg') %>" alt="Submit" />
     <% end %>
+
+    <div id="stepinsidewarningcopy">
+      <p class="text-style-1">
+        Applies to first time customers buying a suit in May
+      </p>
+    </div>
+  </div>
+  <div id="logo">
+    <img id="snapsuits" src="<%= asset_path('home/snapsuits.png') %>">
+    <div id="backsoon">
+      <p class="text-style-5">
+        IS COMING SOON
+      </p>
+    </div>
+  </div>
 </div>

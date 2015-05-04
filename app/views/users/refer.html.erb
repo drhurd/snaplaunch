@@ -1,88 +1,163 @@
-<div class="header">
-    <div class="content">
-        <p class="logo brandon">Harry&#8217;s</p>
-        <p class="byline brandon">THANK YOU FOR SIGNING UP</p>
+<div id="suits-contain">
+  <img id="contenedorbkg" src="<%= asset_path('refer/contenedorbkg.jpg') %>"/>
+  <div id="footer">
+    <img id="separador1" src="<%= asset_path('refer/separador1.png') %>"/>
+    <div id="getmeasured">
+      <p class="text-style-2">
+        Get Measured
+      </p>
     </div>
-</div>
-
-<div class="hero">
-    <div class="page-content clearfix">
-        <div class="mammoth">
-            <span class="need brandon">Shaving Is<br>Evolving</span>
-        </div>
-        <div class="share-wrap">
-            <p class="why brandon">Don't leave your friends behind</p>
-            <p class="title brandon">INVITE FRIENDS &<br>Earn Product</p>
-            <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and earn Harry's goods for<br>each friend who signs up.</p>
-            <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
-            <% twitter_message = "#Shaving is evolving. Excited for @harrys to launch." %>
-            <div class="social-links">
-                <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=Harrys" class="fb" target="_blank"></a>
-                <div class="sep"></div>
-                <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" class="twit" target="_blank"></a>
-            </div>
-        </div>
+    <img id="separador3" src="<%= asset_path('refer/separador3.png') %>"/>
+    <div id="ourcollection">
+      <p class="text-style-2">
+        Our Collection
+      </p>
     </div>
-</div>
-
-<% 
-    referrals_count = @user.referrals.count
-
-    stops = User::REFERRAL_STEPS
-
-    found = nil
-
-    stops.reverse_each { |stop|
-        if stop["count"] <= referrals_count and !found
-            stop["selected"] = true
-            found = stop
-        else
-            stop["selected"] = false
-        end
-    }   
- %>
-<div class="prizes <% if found %>prize-<%= found["class"] %><% end %>">
-    <div class="page-content">
-        <p class="callout brandon">Here's How It Works:</p>
-        <ul class="products clearfix">
-            <li class="title brandon"><p class="friends">Friends Joined</p><p class="rewards">Harry's Product</p></li>
-            <% stops.each do |stop| %>
-                <li class="product brandon <% if stop["selected"] %>selected<% end %> <% if stop["class"] == 'five' %>last<% end %>">
-                    <div class="circle"><%= stop["count"] %></div>
-                    <div class="sep"></div>
-                    <p><%= stop["html"].html_safe %></p>
-
-                    <div class="tooltip">
-                        <img src="<%= stop["image"] %>" height="254">
-                    </div>
-                </li>
-            <% end %>
-        </ul>
-
-        <div class="progress">
-            <div class="mover">
-                <div class="bar clearfix"></div>
-            </div>
-        </div>
-
-        <% 
-            words = ''
-            if referrals_count == 1
-                words = 'friend has'
-            elsif 
-                words = 'friends have'
-            end
-
-        %>
-
-        <% if referrals_count == 0 %>
-            <p class="place brandon"><span>No</span> friends have joined...Yet!</p>
-        <% else %>
-            <p class="place brandon"><span><%= referrals_count %></span> <%= words %> joined</p>
-        <% end %>
-        <p class="check brandon">Keep checking</p>
-
-        <p class="ship brandon">We ship to the U.S. (& Canada Soon)</p>        
-        <a class="policy brandon" href="/privacy-policy" target="_blank">Privacy Policy</a>
+    <img id="separador2" src="<%= asset_path('refer/separador2.png') %>"/>
+    <div id="aboutus">
+      <p class="text-style-2">
+        About Us
+      </p>
     </div>
+    <div id="copyright">
+      <p class="text-style-1">
+        &#169; Copyright SnapSuits<span class="span-1">&#8482;</span> 2015, <span class="span">CALL: 323-510-SNAP</span>
+      </p>
+    </div>
+  </div>
+  <div id="header">
+    <div id="logo">
+      <a href="#url" title="#url">
+        <img id="snapsuits" src="<%= asset_path('refer/snapsuits.png') %>"/>
+      </a>
+    </div>
+    <div id="thanks-1">
+      <div id="thanks">
+        <p class="text-style-4">
+          THANK YOU FOR SIGNING UP
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="contenedorrewards">
+    <div id="rewards">
+      <div id="rewardstitulo">
+        <p class="text-style-5">
+          Here&#8217;s what you get:
+        </p>
+      </div>
+    </div>
+    <div id="contenedor1">
+      <div id="friendsjoinedguide">
+        <p class="text-style-8">
+          Friends joined
+        </p>
+      </div>
+      <img id="circulo1" src="<%= asset_path('refer/circulo1.png') %>"/>
+      <div id="text-4">
+        <p class="text-style-10">
+          5
+        </p>
+      </div>
+      <img id="circulo2" src="<%= asset_path('refer/circulo2.png') %>"/>
+      <div id="text-3">
+        <p class="text-style-10">
+          10
+        </p>
+      </div>
+      <img id="circulo3" src="<%= asset_path('refer/circulo3.png') %>"/>
+      <div id="text-2">
+        <p class="text-style-10">
+          25
+        </p>
+      </div>
+      <img id="circulo4" src="<%= asset_path('refer/circulo4.png') %>"/>
+      <div id="text-1">
+        <p class="text-style-10">
+          50
+        </p>
+      </div>
+      <img id="circulorojo" src="<%= asset_path('refer/circulorojo.png') %>"/>
+      <div id="text">
+        <p class="text-style-11">
+          100
+        </p>
+      </div>
+    </div>
+    <div id="contenedor2">
+      <div id="snapsuitsgoodies">
+        <p class="text-style-6">
+          SnapSuits goodies
+        </p>
+      </div>
+      <div id="additional10off">
+        <p>
+          Additional $10 off any item
+        </p>
+      </div>
+      <div id="freesilkblackbow">
+        <p>
+          Free Silk Black Bow Tie 
+        </p>
+      </div>
+      <div id="offanyitem">
+        <p>
+          $30 off any item on the site 
+        </p>
+      </div>
+      <div id="freeshirt">
+        <p>
+          Free Shirt
+        </p>
+        <p>
+          ($50 Value)
+        </p>
+      </div>
+      <div id="freecustomsuit">
+        <p>
+          Free Custom Suit ($250 Value)
+        </p>
+      </div>
+    </div>
+    <div id="friendsjoined-1">
+      <div id="friendsjoined">
+        <p class="text-style-7">
+          <%= @user.referrals.count %> Friends joined
+        </p>
+      </div>
+    </div>
+    <div id="keepchecking-1">
+      <div id="keepchecking">
+        <p class="text-style-9">
+          Keep checking
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="slide">
+    <div id="tellyourcompany">
+      <div id="tellyourcompany-title">
+        <p class="text-style-3">
+          TELL YOUR ENTIRE COMPANY
+        </p>
+      </div>
+    </div>
+    <div id="textcopy-1">
+      <img id="textcopy" src="<%= asset_path('refer/textcopy.png') %>"/>
+    </div>
+    <div id="socialicons">
+      <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>" title="Facebook">
+        <img id="fb" src="<%= asset_path('refer/fb.png') %>"/>
+      </a>
+      <img id="separador5" src="<%= asset_path('refer/separador5.png') %>"/>
+      <% twitter_message = "#Suits are evolving. Excited for SnapSuits to launch." %>
+      <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" title="Twitter">
+        <img id="twitter" src="<%= asset_path('refer/twitter.png') %>"/>
+      </a>
+      <img id="separador4" src="<%= asset_path('refer/separador4.png') %>"/>
+      <a href="<%= root_url %>?ref=<%= @user.referral_code %>" title="Copy Link">
+        <img id="url" src="<%= asset_path('refer/url.png') %>"/>
+      </a>
+    </div>
+  </div>
 </div>
