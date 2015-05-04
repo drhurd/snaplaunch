@@ -13,6 +13,9 @@ Prelaunchr::Application.configure do
 
   config.eager_load = true
 
+  # Serve up CSS and JS
+  config.serve_static_assets = true
+
   # Compress JavaScripts and CSS
   config.assets.compress = true
 
