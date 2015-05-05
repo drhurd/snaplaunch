@@ -33,7 +33,7 @@
     </div>
     <div id="thanks-1">
       <div id="thanks">
-        <p class="text-style-5">
+        <p class="text-style-4">
           THANK YOU FOR SIGNING UP
         </p>
       </div>
@@ -42,51 +42,51 @@
   <div id="contenedorrewards">
     <div id="rewards">
       <div id="rewardstitulo">
-        <p class="text-style-6">
+        <p class="text-style-5">
           Here&#8217;s what you get:
         </p>
       </div>
     </div>
     <div id="contenedor1">
       <div id="friendsjoinedguide">
-        <p class="text-style-9">
+        <p class="text-style-8">
           Friends joined
         </p>
       </div>
       <img id="circulo1" src="<%= asset_path('refer/circulo1.png') %>"/>
       <div id="text-4">
-        <p class="text-style-11">
+        <p class="text-style-10">
           5
         </p>
       </div>
       <img id="circulo2" src="<%= asset_path('refer/circulo2.png') %>"/>
       <div id="text-3">
-        <p class="text-style-11">
+        <p class="text-style-10">
           10
         </p>
       </div>
       <img id="circulo3" src="<%= asset_path('refer/circulo3.png') %>"/>
       <div id="text-2">
-        <p class="text-style-11">
+        <p class="text-style-10">
           25
         </p>
       </div>
       <img id="circulo4" src="<%= asset_path('refer/circulo4.png') %>"/>
       <div id="text-1">
-        <p class="text-style-11">
+        <p class="text-style-10">
           50
         </p>
       </div>
       <img id="circulorojo" src="<%= asset_path('refer/circulorojo.png') %>"/>
       <div id="text">
-        <p class="text-style-12">
+        <p class="text-style-11">
           100
         </p>
       </div>
     </div>
     <div id="contenedor2">
       <div id="snapsuitsgoodies">
-        <p class="text-style-7">
+        <p class="text-style-6">
           SnapSuits goodies
         </p>
       </div>
@@ -121,14 +121,14 @@
     </div>
     <div id="friendsjoined-1">
       <div id="friendsjoined">
-        <p class="text-style-8">
-          2 Friends joined
+        <p class="text-style-7">
+          <%= @user.referrals.count %> Friends joined
         </p>
       </div>
     </div>
     <div id="keepchecking-1">
       <div id="keepchecking">
-        <p class="text-style-10">
+        <p class="text-style-9">
           Keep checking
         </p>
       </div>
@@ -137,7 +137,7 @@
   <div id="slide">
     <div id="tellyourcompany">
       <div id="tellyourcompany-title">
-        <p class="text-style-4">
+        <p class="text-style-3">
           TELL YOUR ENTIRE COMPANY
         </p>
       </div>
@@ -154,17 +154,10 @@
       <a href="http://twitter.com/share?url=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&text=<%= CGI::escape(twitter_message) %>" title="Twitter">
         <img id="twitter" src="<%= asset_path('refer/twitter.png') %>"/>
       </a>
+      <img id="separador4" src="<%= asset_path('refer/separador4.png') %>"/>
+      <a href="<%= root_url %>?ref=<%= @user.referral_code %>" title="Copy Link">
+        <img id="url" src="<%= asset_path('refer/url.png') %>"/>
+      </a>
     </div>
-  </div>
-
-  <div id="copylink">
-    <div id="copylinkfield">
-      <p class="text-style-3">
-        snapsuits.com/?ref=<%= CGI::escape(@user.referral_code) %>
-      </p>
-    </div>
-    <a title="Copy" id="copy-link" data-clipboard-text="snapsuits.com/?ref=<%= CGI::escape(@user.referral_code) %>">
-      <img id="copylinkbutton" src="<%= asset_path('refer/copylinkbutton.jpg')%>"/>
-    </a>
   </div>
 </div>

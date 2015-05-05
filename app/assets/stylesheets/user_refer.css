@@ -8,7 +8,7 @@ body {
   width: 1280px;
   margin-top: 0;
   margin-left: auto;
-  z-index: 73;
+  z-index: 79;
   margin-right: auto;
 }
 
@@ -29,6 +29,7 @@ body {
   margin-top: 813px;
   margin-left: -1125px;
   z-index: 16;
+  min-height: 39px;
 }
 
 #separador1 {
@@ -87,6 +88,7 @@ body {
   margin-top: 16px;
   margin-left: 5px;
   z-index: 15;
+  min-height: 22px;
 }
 
 #copyright {
@@ -104,8 +106,8 @@ body {
   width: 948px;
   margin-top: 24px;
   margin-left: -1115px;
-  z-index: 72;
-}
+  z-index: 70;
+ }
 
 #logo {
   float: left;
@@ -113,7 +115,7 @@ body {
   width: 168px;
   margin-top: 6px;
   margin-left: 0;
-  z-index: 71;
+  z-index: 69;
   background-image: url(logo.png);
   background-repeat: no-repeat;
 }
@@ -125,7 +127,7 @@ body {
   height: 22px;
   margin-top: 0;
   margin-left: 0;
-  z-index: 70;
+  z-index: 68;
 }
 
 #thanks-1 {
@@ -134,7 +136,7 @@ body {
   width: 483px;
   margin-top: 0;
   margin-left: 297px;
-  z-index: 68;
+  z-index: 66;
 }
 
 #thanks {
@@ -143,7 +145,7 @@ body {
   width: 483px;
   margin-top: 0;
   margin-left: 0;
-  z-index: 67;
+  z-index: 65;
 }
 
 #contenedorrewards {
@@ -395,9 +397,9 @@ body {
   float: left;
   position: relative;
   width: 618px;
-  margin-top: 180px;
-  margin-left: -950px;
-  z-index: 64;
+  margin-top: 137px;
+  margin-left: -947px;
+  z-index: 62;
 }
 
 #tellyourcompany {
@@ -406,7 +408,7 @@ body {
   width: 618px;
   margin-top: 0;
   margin-left: 0;
-  z-index: 63;
+  z-index: 61;
 }
 
 #tellyourcompany-title {
@@ -415,7 +417,7 @@ body {
   width: 618px;
   margin-top: 0;
   margin-left: 0;
-  z-index: 62;
+  z-index: 60;
 }
 
 #textcopy-1 {
@@ -423,8 +425,8 @@ body {
   position: relative;
   width: 423px;
   margin-top: 16px;
-  margin-left: 99px;
-  z-index: 60;
+  margin-left: 98px;
+  z-index: 58;
   clear: left;
 }
 
@@ -435,16 +437,16 @@ body {
   height: 78px;
   margin-top: 0;
   margin-left: 0;
-  z-index: 59;
+  z-index: 57;
 }
 
 #socialicons {
   float: left;
   position: relative;
-  width: 153px;
-  margin-top: 36px;
-  margin-left: 233px;
-  z-index: 57;
+  width: 92px;
+  margin-top: 134px;
+  margin-left: 260px;
+  z-index: 55;
   clear: left;
 }
 
@@ -465,7 +467,7 @@ body {
   height: 20px;
   margin-top: 6px;
   margin-left: 14px;
-  z-index: 55;
+  z-index: 54;
 }
 
 #twitter {
@@ -478,24 +480,35 @@ body {
   z-index: 52;
 }
 
-#separador4 {
+#copylink {
   float: left;
   position: relative;
-  width: 1px;
-  height: 20px;
-  margin-top: 6px;
-  margin-left: 14px;
-  z-index: 56;
+  width: 461px;
+  margin-top: 328px;
+  margin-left: -869px;
+  z-index: 78;
+  background-image: url(copylink.png);
+  background-repeat: no-repeat;
 }
 
-#url {
+#copylinkfield {
   float: left;
   position: relative;
-  width: 32px;
-  height: 32px;
+  width: 248px;
+  margin-top: 22px;
+  margin-left: 9px;
+  z-index: 73;
+}
+
+#copylinkbutton {
+  float: left;
+  position: relative;
+  width: 180px;
+  height: 61px;
   margin-top: 0;
-  margin-left: 14px;
-  z-index: 54;
+  margin-left: 24px;
+  z-index: 77;
+  border-radius: 5px;
 }
 
 p {
@@ -539,6 +552,18 @@ p {
   padding: 0;
   text-indent: 0;
   text-align: center;
+  font: 16px/19px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #999;
+  letter-spacing: normal;
+}
+
+.text-style-4 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
   font: bold 34px/51px Lato;
   text-transform: none;
   text-decoration: none;
@@ -546,7 +571,7 @@ p {
   letter-spacing: normal;
 }
 
-.text-style-4 {
+.text-style-5 {
   margin: 0;
   padding: 0;
   text-indent: 0;
@@ -558,7 +583,7 @@ p {
   letter-spacing: normal;
 }
 
-.text-style-5 {
+.text-style-6 {
   margin: 0;
   padding: 0;
   text-indent: 0;
@@ -570,23 +595,11 @@ p {
   letter-spacing: normal;
 }
 
-.text-style-6 {
-  margin: 0;
-  padding: 0;
-  text-indent: 0;
-  text-align: left;
-  font: bold 20px/24px Lato;
-  text-transform: none;
-  text-decoration: none;
-  color: #666;
-  letter-spacing: normal;
-}
-
 .text-style-7 {
   margin: 0;
   padding: 0;
   text-indent: 0;
-  text-align: center;
+  text-align: left;
   font: bold 20px/24px Lato;
   text-transform: none;
   text-decoration: none;
@@ -598,11 +611,11 @@ p {
   margin: 0;
   padding: 0;
   text-indent: 0;
-  text-align: left;
+  text-align: center;
   font: bold 20px/24px Lato;
   text-transform: none;
   text-decoration: none;
-  color: #fd3934;
+  color: #666;
   letter-spacing: normal;
 }
 
@@ -610,8 +623,8 @@ p {
   margin: 0;
   padding: 0;
   text-indent: 0;
-  text-align: center;
-  font: bold 16px/19px Lato;
+  text-align: left;
+  font: bold 20px/24px Lato;
   text-transform: none;
   text-decoration: none;
   color: #fd3934;
@@ -623,6 +636,18 @@ p {
   padding: 0;
   text-indent: 0;
   text-align: center;
+  font: bold 16px/19px Lato;
+  text-transform: none;
+  text-decoration: none;
+  color: #fd3934;
+  letter-spacing: normal;
+}
+
+.text-style-11 {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  text-align: center;
   font: bold 20px/24px Lato;
   text-transform: none;
   text-decoration: none;
@@ -630,7 +655,7 @@ p {
   letter-spacing: normal;
 }
 
-.text-style-11 {
+.text-style-12 {
   margin: 0;
   padding: 0;
   text-indent: 0;
