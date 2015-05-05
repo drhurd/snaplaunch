@@ -1,15 +1,16 @@
+//= require zeroclipboard
+
 $(document).ready(function(){
-	var client = new ZeroClipboard( document.getElementById("copy-link") );
+	var client = new ZeroClipboard( document.getElementById("copylinkbutton") );
 	console.log('executing script');
 	console.log(client);
-	
+
 	client.on( "ready", function( readyEvent ) {
 	// alert( "ZeroClipboard SWF is ready!" );
+		console.log("ready");
 
 		client.on( "aftercopy", function( event ) {
-	  	// `this` === `client`
-	  	// `event.target` === the element that was clicked
-	  	event.target.style.display = "none";
+			console.log('text copied: ' + event.data["text/plain"]);
 		});
 	});
 });

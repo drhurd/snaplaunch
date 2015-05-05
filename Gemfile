@@ -11,6 +11,8 @@ gem 'pg'
 gem 'rails', '4.2.0'
 gem 'unicorn'
 
+gem 'zeroclipboard-rails'
+
 group :assets do
   gem 'coffee-rails', '~> 4.1.0'
   gem 'sass-rails',   '~> 5.0.1'

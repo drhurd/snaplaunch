@@ -206,6 +206,8 @@ GEM
       raindrops (~> 0.7)
     warden (1.2.3)
       rack (>= 1.0)
+    zeroclipboard-rails (0.1.0)
+      railties (>= 3.1)
 
 PLATFORMS
   ruby
@@ -226,3 +228,4 @@ DEPENDENCIES
   sqlite3
   uglifier
   unicorn
+  zeroclipboard-rails

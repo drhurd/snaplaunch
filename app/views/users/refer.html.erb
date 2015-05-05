@@ -159,12 +159,12 @@
 
   <div id="copylink">
     <div id="copylinkfield">
-      <p class="text-style-3">
+      <p class="text-style-3" style="color:#ffffff">
         snapsuits.com/?ref=<%= CGI::escape(@user.referral_code) %>
       </p>
     </div>
-    <a title="Copy" id="copy-link" data-clipboard-text="snapsuits.com/?ref=<%= CGI::escape(@user.referral_code) %>">
-      <img id="copylinkbutton" src="<%= asset_path('refer/copylinkbutton.jpg')%>"/>
+    <a title="Copy" id="copy-link">
+      <img id="copylinkbutton" data-clipboard-text="snapsuits.com/?ref=<%= CGI::escape(@user.referral_code) %>" src="<%= asset_path('refer/copylinkbutton.jpg')%>"/>
     </a>
   </div>
 </div>
