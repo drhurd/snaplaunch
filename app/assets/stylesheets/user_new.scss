@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  min-width: 1280px;
+  padding: 0;
 }
 
 #suits-contain {
@@ -123,7 +123,6 @@ body {
   margin-top: 540px;
   margin-left: -868px;
   z-index: 25;
-  min-height: 200px;
   background-image: url(stepinside.png);
   background-repeat: no-repeat;
 }
@@ -152,9 +151,14 @@ body {
   position: relative;
   width: 180px;
   height: 61px;
-  margin-top: 43px;
-  margin-left: 141px;
+  margin-top: -61px;
+  margin-left: 280px;
   z-index: 23;
+}
+
+input#user_email {
+  margin-top 25px;
+  border-radius: 5px;
 }
 
 #stepinsidewarningcopy {

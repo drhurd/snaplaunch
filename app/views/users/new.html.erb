@@ -39,7 +39,7 @@
       </p>
     </div>
     <%= form_for @user, :url => { :action => "create" } do |f| %>
-        <%= f.text_field :email, :placeholder => "Enter Email", :style => "border: none;padding-top: 21px;padding-bottom: 20px;padding-left: 19px;padding-right: 150px;" %>
+        <%= f.text_field :email, :placeholder => "Enter Email", :style => "padding-top: 21px;padding-bottom: 20px;padding-left: 19px;padding-right: 150px;" %>
         <input id="signupbutton" type="image" src="<%= asset_path('home/signupbutton.jpg') %>" alt="Submit" />
     <% end %>
 
