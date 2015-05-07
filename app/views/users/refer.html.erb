@@ -53,40 +53,35 @@
           Friends joined
         </p>
       </div>
-      <div id="circulo1">
-        <div id="text-4">
-          <p class="text-style-11">
-            5
-          </p>
-        </div>
+      <img id="circulo1" src="<%= asset_path('refer/circulo1.png') %>"/>
+      <div id="text-4">
+        <p class="text-style-11">
+          5
+        </p>
       </div>
-      <div id="circulo2">
-        <div id="text-3">
-          <p class="text-style-11">
-            10
-          </p>
-        </div>
+      <img id="circulo2" src="<%= asset_path('refer/circulo2.png') %>"/>
+      <div id="text-3">
+        <p class="text-style-11">
+          10
+        </p>
       </div>
-      <div id="circulo3">
-        <div id="text-2">
-          <p class="text-style-11">
-            25
-          </p>
-        </div>
+      <img id="circulo3" src="<%= asset_path('refer/circulo3.png') %>"/>
+      <div id="text-2">
+        <p class="text-style-11">
+          25
+        </p>
       </div>
-      <div id="circulo4">
-        <div id="text-1">
-          <p class="text-style-11">
-            50
-          </p>
-        </div>
+      <img id="circulo4" src="<%= asset_path('refer/circulo4.png') %>"/>
+      <div id="text-1">
+        <p class="text-style-11">
+          50
+        </p>
       </div>
-      <div id="circulo5">
-        <div id="text">
-          <p class="text-style-11">
-            100
-          </p>
-        </div>
+      <img id="circulorojo" src="<%= asset_path('refer/circulorojo.png') %>"/>
+      <div id="text">
+        <p class="text-style-12">
+          100
+        </p>
       </div>
     </div>
     <div id="contenedor2">
@@ -169,8 +164,7 @@
       </p>
     </div>
     <a title="Copy" id="copy-link">
-      <a id="copylinkbutton" onclick="alert('Your link has been copied to your clipboard');" data-clipboard-text="snapsuits.com/?ref=<%= CGI::escape(@user.referral_code) %>"><p>COPY LINK</p></a>
+      <img id="copylinkbutton" data-clipboard-text="snapsuits.com/?ref=<%= CGI::escape(@user.referral_code) %>" src="<%= asset_path('refer/copylinkbutton.jpg')%>"/>
     </a>
-
   </div>
 </div>
